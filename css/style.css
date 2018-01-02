@@ -1,0 +1,118 @@
+/**
+ * Created by Yasin Sunmaz on 02.01.2018.
+ */
+@import "reset.css";/*reset.css dosyası style.css dosyası içine aktarıldı.*/
+body{
+    background-color: #dee2e4;
+    font-family: verdana;
+}
+/*Sayfa Düzeni Başlangıç*/
+#wrapper {
+    width: 1000px;
+    background-color: white;
+    margin : 0 auto ;
+}
+/*Sayfa Düzeni Son*/
+/*Header Başlık Başlangıç*/
+header h1{
+    text-align: center;
+    text-transform: uppercase;
+    color:#0cf;
+    font-size:50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 30px 0 10px 0 ;
+    text-shadow: 2px 2px black;
+}
+/*Header Başlık Son*/
+/*Menü Başlangıç*/
+header nav ul li {
+    display:inline;
+    list-style-type: none;
+}
+header nav ul li a{
+    display: block;
+    float:left;
+    background-color: #222;
+    width: 19.8%;
+    color:#ffffff;
+    text-decoration: none;
+    line-height: 40px;
+    text-align: center;
+	border-right: 2px solid  #55595b;
+}
+header nav ul li a:hover{
+    background-color: #00ccff;
+}
+/*Menü Son*/
+/*Slider Turuncu Alan Başlangıç*/
+.img-text{
+     position:relative;
+ }
+.img-text figure{
+    margin-top:20px;
+ }
+.img-text article
+{
+    position:absolute;
+    width: 350px;
+    top:30px;
+    right: 30px;
+    color:#FFF;
+    background-color: #FF8000;
+    border-radius:10px;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 20px;
+}
+.img-text article h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+/*Slider Turuncu Alan Son*/
+/*Main Article Başlangıç*/
+.mainarticle{
+    float: left;
+    width: 500px;
+    padding: 20px;
+}
+.mainarticle p{
+	padding-bottom: 10px;
+
+}
+.mainarticle h2,aside h2{
+    color: #00ccff;;
+    font-size:25px;
+    margin-bottom: 10px;
+}
+.mainarticle figure img{
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+}
+.mainarticle figure {
+   text-align: center;
+}
+.mainarticle figure figcaption{
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+}
+/*Main Article Son*/
+/*Aside Başlangıç*/
+aside{
+    width: 400px;
+    float: left;
+    padding: 20px;
+}
+/*Aside Son*/
+/*Footer Son*/
+footer{
+    clear:both;
+    background-color: #45A7CE;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+/*Footer Son*/
