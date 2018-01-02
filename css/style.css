@@ -4,7 +4,6 @@
 @import "reset.css";/*reset.css dosyası style.css dosyası içine aktarıldı.*/
 body{
     background-color: #dee2e4;
-    font-family: verdana;
 }
 /*Sayfa Düzeni Başlangıç*/
 #wrapper {
@@ -17,7 +16,7 @@ body{
 header h1{
     text-align: center;
     text-transform: uppercase;
-    color:#0cf;
+    color:#00ccff;
     font-size:50px;
     font-family: sans-serif;
     font-weight: bold;
@@ -110,7 +109,7 @@ aside{
 /*Footer Son*/
 footer{
     clear:both;
-    background-color: #45A7CE;
+    background-color: #00ccff;
     color: #ffffff;
     padding: 20px;
     text-align: center;
